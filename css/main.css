@@ -25,11 +25,13 @@ body {
 /********* 
 Local
 *********/
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200');
 
 /* Page Container */
 .page-container {
     margin: 30px;
+    height: 100vh;
+    position: relative;
 }
 
 
@@ -48,10 +50,33 @@ nav ul {
 
 nav ul li {
     padding: 8px;
-    font-size: 19px;
+    font-size: 21px;
+    font-weight: 100;
 }
 
 nav ul li:hover {
     border-bottom: 2px solid #3b3b3b;
 }
+
+/* Mid Content */
+.mid-content {
+    position: absolute;
+    top: 45%;
+    left: 0;
+
+   vertical-align: center;
+   width: 80%;
+   font-size: 2rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
 
