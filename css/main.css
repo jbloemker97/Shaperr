@@ -4,6 +4,7 @@
     padding: 0;
     color: #4ba2f9;
     font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
 }
 
 a {
@@ -30,6 +31,7 @@ Local
 /* Page Container */
 .page-container {
     margin: 30px;
+    margin-bottom: 0;
     height: 100vh;
     position: relative;
 }
@@ -46,16 +48,17 @@ Local
 nav ul {
     display: flex;
     flex-direction: row;
+    margin-right: 30px;
 }
 
 nav ul li {
-    padding: 8px;
+    padding: 10px;
     font-size: 21px;
     font-weight: 100;
 }
 
 nav ul li:hover {
-    border-bottom: 2px solid #3b3b3b;
+    border-bottom: 2px solid #fff;
 }
 
 /* Mid Content */
@@ -64,11 +67,68 @@ nav ul li:hover {
     top: 45%;
     left: 0;
 
-   vertical-align: center;
-   width: 80%;
-   font-size: 2rem;
-   
+    vertical-align: center;
+    width: 80%;
+    font-size: 1.9rem;
+    margin-left: 40px;
 }
+
+.mid-content h1 {
+    opacity: 0.8; 
+}
+
+.mid-content h4 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+/* Footer Section  */
+.footer {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+
+    display: flex;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.ft {
+    border-top: 1px solid #fff;
+    padding: 65px;
+    margin: 30px;
+}
+
+.ft h2,
+.ft h4 {
+    color: #fff;
+}
+
+.about-us {
+    background-image: url("../img/aboutUsPic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insights {
+    background-image: url("../img/insightsPic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.people {
+    background-image: url("../img/peoplePic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
 
