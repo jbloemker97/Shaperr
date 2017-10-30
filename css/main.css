@@ -87,13 +87,13 @@ nav ul li:hover {
 .footer {
     position: absolute;
     bottom: 5%;
-    left: 0;
-
+    
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
     text-align: center;
-    width: 90%;
-    margin: auto;
-    justify-content: center;
+    
 }
 
 .ft {
