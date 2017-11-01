@@ -61,6 +61,10 @@ nav ul li:hover {
     border-bottom: 2px solid #fff;
 }
 
+.logo h1 {
+    font-size: 2.3rem;
+}
+
 /* Mid Content */
 .mid-content {
     position: absolute;
@@ -89,17 +93,16 @@ nav ul li:hover {
     bottom: 5%;
     
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     
 }
 
 .ft {
-    border-top: 1px solid #fff;
     padding: 65px;
-    margin: 30px;
+    margin: 15px;
 }
 
 .ft h2,
@@ -107,25 +110,47 @@ nav ul li:hover {
     color: #fff;
 }
 
+.ft h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.ft h4 {
+    color: #4ba2f9;
+}
+
+#sec1,
+#sec3 {
+    border-top: 3px solid #4ba2f9;
+}
+
+#sec2 {
+    border-top: 3px solid #91befb;
+}
+
 .about-us {
-    background-image: url("../img/aboutUsPic.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/aboutUsPic.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
 }
 
 .insights {
-    background-image: url("../img/insightsPic.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/insightsPic.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
 }
 
 .people {
-    background-image: url("../img/peoplePic.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/peoplePic.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
 }
 
 
