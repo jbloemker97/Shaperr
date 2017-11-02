@@ -173,8 +173,14 @@ nav ul li:hover {
 
 
 /* Media Queries */
-@media (max-width: 600px) {
-    .topnav a {
+@media (max-width: 650px) {
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+
+    /* Navbar */
+    .topnav a:not(:first-child)  {
         display: none;
     }
 
@@ -197,6 +203,15 @@ nav ul li:hover {
         float: none;
         text-align: left;
         display: block;
+    }
+
+    .responsive {
+        float: none;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding-right: 35px;
+        background-color: grey;
     }
 }
 
