@@ -81,7 +81,7 @@ nav ul li:hover {
     left: 0;
 
     vertical-align: center;
-    width: 80%;
+    width: 90%;
     font-size: 1.9rem;
     margin-left: 40px;
 }
@@ -111,14 +111,20 @@ nav ul li:hover {
     
 }
 
-.ft {
+.ft  {
     padding: 65px;
     margin: 15px;
+}
+
+.footer a {
+    width: 25%;
+    height: 200px;
 }
 
 .ft h2,
 .ft h4 {
     color: #fff;
+    width: 100%;
 }
 
 .ft h2 {
@@ -168,6 +174,7 @@ nav ul li:hover {
 .insights:hover,
 .people:hover {
     opacity: 0.3;
+    border: 3px solid #fff;
 }
 
 
@@ -180,7 +187,7 @@ nav ul li:hover {
 
 
     /* Navbar */
-    .topnav a:not(:first-child)  {
+    .topnav a  {
         display: none;
     }
 
@@ -212,6 +219,12 @@ nav ul li:hover {
         flex-direction: column;
         padding-right: 35px;
         background-color: grey;
+    }
+}
+
+@media(max-width: 990px) {
+    .footer {
+        display: none;
     }
 }
 
