@@ -179,6 +179,72 @@ nav ul li:hover {
 
 
 
+/* About Us Content */
+.about-us-content,
+.insights-content,
+.people-content {
+    display: none;
+    flex-direction: column;
+    width: 80%;
+    height:80vh;
+    background-color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/about-us-content.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40%;
+    margin-top: -45vh;
+}
+
+.about-us-content i,
+.insights-content i,
+.people-content i {
+    position: absolute;
+    top: 0;
+    right:0
+}
+
+.about-us-content h1,
+.insights-content h1,
+.people-content h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.about-us-content-p,
+.insights-content-p,
+.people-content-p  {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+
+    
+}
+
+.about-us-content-p p,
+.insights-content-p p,
+.people-content-p p {
+    padding: 10px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+
+
+
 
 
 
@@ -239,6 +305,15 @@ nav ul li:hover {
         background-color: grey;
     }
 }
+
+@media(max-width: 775px){
+    .h1 {
+        padding-bottom: 50px;
+    }
+
+    
+}
+
 
 @media(max-width: 990px) {
     .footer {
